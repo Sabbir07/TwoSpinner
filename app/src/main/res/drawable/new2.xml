@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/down_arrow" />
+    <item>
+        <shape android:shape="rectangle" android:padding="10dp">
+            <!--<corners
+                android:bottomRightRadius="5dp"
+                android:bottomLeftRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:topRightRadius="5dp"/>-->
+
+            <solid android:color="#1b505050" />
+            <corners android:radius="5dp" />
+            <stroke android:width="2dp"
+                android:color="@android:color/white" />
+        </shape>
+    </item>
+
+</layer-list>
